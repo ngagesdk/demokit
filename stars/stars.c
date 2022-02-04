@@ -17,8 +17,13 @@
 #define NUM_STARS 1024
 #define ERASE_OLD_STARS 1
 #define CAP_SPEED 1
+#if defined(__NGAGE__)
+#define WIDTH 176
+#define HEIGHT 208
+#else /* defined(__NGAGE__) */
 #define WIDTH 320
 #define HEIGHT 240
+#endif /* defined(__NGAGE__) */
 #define PRINT_FPS 0
 
 #ifndef M_PI

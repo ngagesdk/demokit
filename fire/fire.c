@@ -18,9 +18,13 @@
 #define CAP_SPEED 1
 #define PRINT_FPS 0
 #define SHOW_COALS 0
+#if defined(__NGAGE__)
+#define WIDTH 176
+#define HEIGHT 208
+#else /* defined(__NGAGE__) */
 #define WIDTH 320
 #define HEIGHT 240
-
+#endif /* defined(__NGAGE__) */
 
 static uint8_t coal_range = 0x10;
 static uint8_t coal_base = 0x20;

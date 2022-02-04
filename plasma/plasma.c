@@ -16,8 +16,13 @@
 #endif
 
 #define CAP_SPEED 1
+#if defined(__NGAGE__)
+#define WIDTH 176
+#define HEIGHT 208
+#else /* defined(__NGAGE__) */
 #define WIDTH 320
 #define HEIGHT 240
+#endif /* defined(__NGAGE__) */
 #define PRINT_FPS 0
 
 #ifndef __EMSCRIPTEN__
