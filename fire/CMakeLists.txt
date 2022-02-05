@@ -39,5 +39,4 @@ target_include_directories(
     fire
     PUBLIC
     ${SRC_DIR}
-    ${SDL_INC_DIR}
-    ${DBGPRINT_INC_DIR})
+    ${SDL_INC_DIR})

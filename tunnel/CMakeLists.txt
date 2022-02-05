@@ -38,5 +38,4 @@ target_include_directories(
     tunnel
     PUBLIC
     ${SRC_DIR}
-    ${SDL_INC_DIR}
-    ${DBGPRINT_INC_DIR})
+    ${SDL_INC_DIR})
