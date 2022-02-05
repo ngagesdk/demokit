@@ -1,0 +1,47 @@
+{
+    "version": "0.2.1",
+    "defaults": {},
+    "configurations":
+    [
+        {
+            "type": "default",
+            "project": "..\\..\\sdk\\eka2l1\\eka2l1_qt.exe",
+            "projectTarget": "fire.exe",
+            "name": "fire.exe",
+            "args": [
+                "--app",
+                "E:\\fire.exe"
+            ]
+        },
+        {
+            "type": "default",
+            "project": "..\\..\\sdk\\eka2l1\\eka2l1_qt.exe",
+            "projectTarget": "plasma.exe",
+            "name": "plasma.exe",
+            "args": [
+                "--app",
+                "E:\\plasma.exe"
+            ]
+        },
+        {
+            "type": "default",
+            "project": "..\\..\\sdk\\eka2l1\\eka2l1_qt.exe",
+            "projectTarget": "stars.exe",
+            "name": "stars.exe",
+            "args": [
+                "--app",
+                "E:\\stars.exe"
+            ]
+        },
+        {
+            "type": "default",
+            "project": "..\\..\\sdk\\eka2l1\\eka2l1_qt.exe",
+            "projectTarget": "tunnel.exe",
+            "name": "tunnel.exe",
+            "args": [
+                "--app",
+                "E:\\tunnel.exe"
+            ]
+        }
+    ]
+}
