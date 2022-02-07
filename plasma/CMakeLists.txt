@@ -10,10 +10,6 @@ add_library(plasma STATIC ${plasma_sources})
 
 build_exe_static(plasma exe ${UID1} ${UID2} ${UID3} "${demokit_static_libs}" "${demokit_libs}")
 
-if(INSTALL_APP)
-    install_file(plasma.exe stars ${CMAKE_CURRENT_BINARY_DIR} plasma.exe ${MMC_DRIVE_LETTER})
-endif()
-
 if(INSTALL_EKA2L1)
     copy_file(plasma.exe ${CMAKE_CURRENT_BINARY_DIR} ${EKA2L1_E_DRIVE} plasma.exe)
 endif()

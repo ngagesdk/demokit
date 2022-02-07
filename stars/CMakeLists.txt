@@ -9,10 +9,6 @@ add_library(stars STATIC ${stars_sources})
 
 build_exe_static(stars exe ${UID1} ${UID2} ${UID3} "${demokit_static_libs}" "${demokit_libs}")
 
-if(INSTALL_APP)
-    install_file(stars.exe stars ${CMAKE_CURRENT_BINARY_DIR} stars.exe ${MMC_DRIVE_LETTER})
-endif()
-
 if(INSTALL_EKA2L1)
     copy_file(stars.exe ${CMAKE_CURRENT_BINARY_DIR} ${EKA2L1_E_DRIVE} stars.exe)
 endif()

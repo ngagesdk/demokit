@@ -11,10 +11,7 @@ project(demokit C CXX)
 
 include(SDL)
 
-set(MMC_DRIVE_LETTER "E")
-
 # Use CMake or Visual Studio to enable these settings.
-option(INSTALL_APP    "Install app on MMC"     OFF)
 option(INSTALL_EKA2L1 "Install app for EKA2L1" OFF)
 
 set(UID1 0x1000007a) # KExecutableImageUidValue, e32uid.h

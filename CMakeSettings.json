@@ -12,13 +12,8 @@
       "ctestCommandArgs": "",
       "variables": [
         {
-          "name": "INSTALL_APP",
-          "value": "False",
-          "type": "BOOL"
-        },
-        {
           "name": "INSTALL_EKA2L1",
-          "value": "False",
+          "value": "True",
           "type": "BOOL"
         }
       ]
