@@ -26,7 +26,6 @@ set(demokit_static_libs
 
 set(demokit_libs
     ${EPOC_PLATFORM}/gcc/lib/gcc-lib/thumb-epoc-pe/2.9-psion-98r2/interwork/libgcc.a
-    ${CMAKE_CURRENT_BINARY_DIR}/libdbgprint.a
     ${EPOC_LIB}/egcc.lib
     ${EPOC_LIB}/euser.lib
     ${EPOC_LIB}/estlib.lib
