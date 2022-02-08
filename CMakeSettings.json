@@ -15,6 +15,26 @@
           "name": "INSTALL_EKA2L1",
           "value": "True",
           "type": "BOOL"
+        },
+        {
+          "name": "BUILD_FIRE",
+          "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "BUILD_PLASMA",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "BUILD_STARS",
+          "value": "False",
+          "type": "BOOL"
+        },
+        {
+          "name": "BUILD_TUNNEL",
+          "value": "False",
+          "type": "BOOL"
         }
       ]
     }
