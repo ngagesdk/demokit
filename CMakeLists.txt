@@ -10,6 +10,7 @@ endif()
 project(demokit C CXX)
 
 include(SDL)
+include(dbgprint)
 
 # Use CMake or Visual Studio to enable these settings.
 option(INSTALL_EKA2L1 "Install app for EKA2L1" OFF)
@@ -30,7 +31,8 @@ set(demokit_static_libs
     ${CMAKE_CURRENT_BINARY_DIR}/libSDL.a)
 
 set(demokit_libs
-    ${EPOC_PLATFORM}/gcc/lib/gcc-lib/thumb-epoc-pe/2.9-psion-98r2/interwork/libgcc.a
+    ${CMAKE_CURRENT_BINARY_DIR}/libdbgprint.a
+    ${EPOC_PLATFORM}/gcc/lib/gcc-lib/arm-epoc-pe/2.9-psion-98r2/libgcc.a
     ${EPOC_LIB}/egcc.lib
     ${EPOC_LIB}/euser.lib
     ${EPOC_LIB}/estlib.lib
