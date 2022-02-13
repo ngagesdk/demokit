@@ -301,6 +301,10 @@ int main(int argc, char *argv[])
     (void)argc;
     (void)argv;
 
+#if defined(__NGAGE__)
+    SDL_SetMainReady();
+#endif
+
     SDL_Init(SDL_INIT_VIDEO);
     width = WIDTH;
     height = HEIGHT;
