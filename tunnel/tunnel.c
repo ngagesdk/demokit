@@ -18,7 +18,9 @@
 #define TEX_WIDTH 256
 #define TEX_HEIGHT 256
 
+#if ! defined(CAP_SPEED)
 #define CAP_SPEED 1
+#endif
 #if defined(__NGAGE__)
 #define WIDTH 176
 #define HEIGHT 208
@@ -26,7 +28,9 @@
 #define WIDTH 320
 #define HEIGHT 240
 #endif /* defined(__NGAGE__) */
+#if ! defined(PRINT_FPS)
 #define PRINT_FPS 0
+#endif
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846

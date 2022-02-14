@@ -90,10 +90,16 @@ target_compile_definitions(
     ${demokit_exe}
     PUBLIC
     __EXE__
+    CAP_SPEED=0
     ${GCC_DEFS}
     UID1=${UID1}
     UID2=${UID2}
     UID3=${UID3})
+
+target_compile_options(
+    ${demokit_exe}
+    PUBLIC
+    -O3)
 
 target_include_directories(
     ${demokit_exe}

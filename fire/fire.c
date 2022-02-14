@@ -14,10 +14,15 @@
 #include <emscripten.h>
 #endif
 
-
+#if ! defined(CAP_SPEED)
 #define CAP_SPEED 1
+#endif
+#if ! defined(PRINT_FPS)
 #define PRINT_FPS 0
+#endif
+#if ! defined(SHOW_COALS)
 #define SHOW_COALS 0
+#endif
 #if defined(__NGAGE__)
 #define WIDTH 176
 #define HEIGHT 208
